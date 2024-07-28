@@ -13,33 +13,6 @@ a{
     --orange-color: rgb(224, 60, 0);
     --sub-color-green: green;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: .3rem 6rem;
-    background-color: var(--main-color);
-}
-header a{
-    color: aliceblue;
-    font-size: .89rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    text-decoration: none;
-}
-header ul{
-    display: flex;
-    gap: 2rem;
-    align-items: center;
-    list-style: none;
-    color: aliceblue;
-    font-size: .89rem;
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-    padding: 0;
-    margin: 0;
-}
 nav{
     display: flex;
     justify-content: space-between;
