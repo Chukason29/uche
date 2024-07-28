@@ -18,6 +18,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     padding: .5rem 6rem;
+    background-color: black;
 }
 nav img{
     width: 50px;
@@ -31,7 +32,7 @@ nav ul{
 }
 nav a{
     text-decoration: none;
-    color: var(--main-color);
+    color: #ffffff;
     font-weight: 500;
 }
 nav a:hover{
