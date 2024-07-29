@@ -112,8 +112,28 @@ nav a:hover{
     display: block;
 }
 
+#smiling-section{
+    position: relative;
+    height: 90vh;
+    overflow-y: hidden;
+    text-align: center;
+}
 #smiling-section video{
     width: 100%;
+}
+.smiling-section-writ{
+    position: absolute;
+    top: 40%;
+    margin: auto;
+    background-color: purple;
+    width: 100%;
+    color: #ffffff;
+    font-family: "DM Sans", sans-serif;
+}
+.smiling-section-writ h1{
+    width: 30%;
+    font-size: 3.5rem;
+    line-height: 48px;
 }
 
 
