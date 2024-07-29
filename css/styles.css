@@ -52,14 +52,29 @@ nav a:hover{
 }
 
 #main-banner{
-
+    position: relative;
 }
 #main-banner img{
     max-width: 100%;
 }
-.carousel-item{
-    position: relative;
+#main-banner-writ{
+    position: absolute;
+    top: 60%;
+    padding-left: 5rem;
+    color: #ffffff;
 }
+#main-banner-writ h1{
+    font-size: 5rem;
+}
+#main-banner-writ h2{
+    font-size: 3.5rem;
+}
+#main-banner-writ a{
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(184, 0, 168);
+}
+
 
 
 
