@@ -125,15 +125,26 @@ nav a:hover{
     position: absolute;
     top: 40%;
     margin: auto;
-    background-color: purple;
     width: 100%;
     color: #ffffff;
     font-family: "DM Sans", sans-serif;
 }
 .smiling-section-writ h1{
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 65px;
+}
+.smiling-section-writ a{
+    text-decoration: none;
+    color: var(--main-color);
+    background-color: #ffffff;
+    padding: .6rem 1.1rem;
+    border-radius: 40px;
+    font-size: 1.35rem;
+}
+.smiling-section-writ p{
     width: 30%;
-    font-size: 3.5rem;
-    line-height: 48px;
+    margin: auto;
 }
 
 
