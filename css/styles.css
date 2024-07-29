@@ -112,7 +112,9 @@ nav a:hover{
     display: block;
 }
 
-
+#smiling-section video{
+    width: 100%;
+}
 
 
 
