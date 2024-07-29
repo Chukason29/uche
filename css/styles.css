@@ -9,8 +9,8 @@ a{
     font-family: "Montserrat", sans-serif;
 }
 :root{
-    --main-color: rgb(0, 13, 0);
-    --orange-color: rgb(224, 60, 0);
+    --black-color: rgb(0,0,0);
+    --main-color: rgb(184, 0, 168);
     --sub-color-green: green;
 }
 nav{
@@ -21,7 +21,7 @@ nav{
     background-color: black;
 }
 nav img{
-    width: 250px;
+    width: 200px;
 }
 nav ul{
     display: flex;
@@ -38,30 +38,19 @@ nav a{
 nav a:hover{
     color: rgb(0, 255, 0)
 }
-#orders{
-    display: flex;
-    gap: 1.5rem;
-}
+
 #order-request{
-    color: white;
-    background-color: var(--orange-color);
+    color: var(--black-color);
+    background-color: white;
     padding: .5rem 2rem;
     border-radius: 40px;
     font-size: .82rem;
 }
 #order-request:hover{
-    background-color: rgb(0, 150, 0);
-}
-#whatsapp-request{
-    color: antiquewhite;
     background-color: var(--main-color);
-    padding: .5rem 2rem;
-    border-radius: 40px;
-    font-size: .82rem;
+    color: #ffffff;
 }
-header i, nav i{
-    margin-right: 3px;
-}
+
 #main-banner{
 
 }
@@ -71,28 +60,7 @@ header i, nav i{
 .carousel-item{
     position: relative;
 }
-.carousel-writ{
-    position: absolute;
-    top: 0;
-    height: 100%;
-    background-image: linear-gradient(to right, rgba(0,0,0.35),rgba(0,0,0,0));
-}
-.carousel-writ > div {
-    width: 50%;
-    margin-top: 12%;
-    color: #ffffff;
-    padding-left: 6rem;
-}
-.carousel-writ > div p{
-    margin-block: 3rem;
-}
-.carousel-writ > div a{
-    color: white;
-    text-decoration: none;
-    background-color: var(--orange-color);
-    font-size: 1.2rem;
-    padding: .75rem 2rem;
-}
+
 
 
 
