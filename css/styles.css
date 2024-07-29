@@ -82,6 +82,22 @@ nav a:hover{
     display: inline-block;
     margin-top: 1.4rem;
 }
+#menu .menuList ul{
+    display: block;
+    position: absolute;
+    top: 40px;
+    background-color: #ffffff;
+    z-index: 99;
+    width: 290px;
+    border-radius: 6px;
+    padding: 1rem 2rem;
+}
+#menu .menuList ul li{
+    margin-top: .5rem;
+}
+.menuList a{
+    color: var(--main-color);
+}
 
 
 
