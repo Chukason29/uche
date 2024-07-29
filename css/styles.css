@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -17,7 +18,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: .5rem 6rem;
+    padding: .5rem 4rem;
     background-color: black;
 }
 nav img{
@@ -53,26 +54,33 @@ nav a:hover{
 
 #main-banner{
     position: relative;
+    font-family: "DM Sans", sans-serif;
 }
 #main-banner img{
     max-width: 100%;
 }
 #main-banner-writ{
     position: absolute;
-    top: 60%;
-    padding-left: 5rem;
+    top: 50%;
+    padding-left: 3.5rem;
     color: #ffffff;
 }
 #main-banner-writ h1{
     font-size: 5rem;
 }
 #main-banner-writ h2{
-    font-size: 3.5rem;
+    font-size: 5rem;
+    margin-top: -25px;
 }
 #main-banner-writ a{
+    font-weight: 600;
     text-decoration: none;
     background-color: #ffffff;
-    color: rgb(184, 0, 168);
+    color: rgb(90, 0, 83);
+    padding: .95rem 1.75rem;
+    border-radius: 40px;
+    display: inline-block;
+    margin-top: 1.4rem;
 }
 
 
