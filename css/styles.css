@@ -121,6 +121,9 @@ nav a:hover{
 #smiling-section video{
     width: 100%;
 }
+#smiling-section img{
+    width: 100%;
+}
 .smiling-section-writ{
     position: absolute;
     top: 32%;
@@ -140,8 +143,12 @@ nav a:hover{
     background-color: #ffffff;
     padding: .6rem 1.1rem;
     border-radius: 40px;
-    font-size: 1.35rem;
+    font-size: 1.15rem;
     font-family: "DM Sans", sans-serif;
+}
+.smiling-section-writ a:hover{
+    background-color: var(--main-color);
+    color: #ffffff;
 }
 .smiling-section-writ p{
     width: 30%;
