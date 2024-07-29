@@ -156,7 +156,18 @@ nav a:hover{
     font-size: 1.1rem;
 }
 
-
+#success-list{
+    display: flex;
+    padding: 1.5rem 0;
+    font-family: "DM Sans", sans-serif;
+}
+.success-list-div{
+    width: 50%;
+}
+.success-list-div img{
+    height: 650px;
+    border-radius: 15px;
+}
 
 
 
