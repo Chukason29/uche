@@ -123,7 +123,7 @@ nav a:hover{
 }
 .smiling-section-writ{
     position: absolute;
-    top: 40%;
+    top: 32%;
     margin: auto;
     width: 100%;
     color: #ffffff;
@@ -136,15 +136,17 @@ nav a:hover{
 }
 .smiling-section-writ a{
     text-decoration: none;
-    color: var(--main-color);
+    color: black;
     background-color: #ffffff;
     padding: .6rem 1.1rem;
     border-radius: 40px;
     font-size: 1.35rem;
+    font-family: "DM Sans", sans-serif;
 }
 .smiling-section-writ p{
     width: 30%;
-    margin: auto;
+    margin: 2rem auto;
+    font-size: 1.1rem;
 }
 
 
