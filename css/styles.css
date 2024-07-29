@@ -35,6 +35,7 @@ nav a{
     text-decoration: none;
     color: #ffffff;
     font-weight: 500;
+    padding: 1rem;
 }
 nav a:hover{
     color: var(--main-color)
@@ -82,21 +83,30 @@ nav a:hover{
     display: inline-block;
     margin-top: 1.4rem;
 }
+.menuList{
+    display: none;
+}
 #menu .menuList ul{
     display: block;
     position: absolute;
-    top: 40px;
+    top: 30px;
     background-color: #ffffff;
     z-index: 99;
-    width: 290px;
+    width: 300px;
     border-radius: 6px;
     padding: 1rem 2rem;
 }
 #menu .menuList ul li{
-    margin-top: .5rem;
+    margin-top: .85rem;
 }
 .menuList a{
-    color: var(--main-color);
+    color: var(--black-color);
+}
+.menuList a:hover{
+    color: rgba(210, 210, 210, .95)
+}
+.dropdown:hover > .menuList{
+    display: block;
 }
 
 
