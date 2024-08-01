@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -135,9 +136,29 @@ nav a:hover{
 }
 .module-writ{
     position: absolute;
-    bottom: 10%;
+    top: 50%;
     width: 100%;
+    padding-inline: 1rem;
 }
+.module-up-writ{
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    letter-spacing: .6rem;
+}
+.module-down-writ{
+    font-size: 4.5rem;
+    font-family: "Oswald", sans-serif;
+    display: inline-block;
+    margin-top: -15px;
+}
+.module-writ p{
+    font-family: "DM Sans", sans-serif;
+    color: rgb(220,220,200);
+    font-size: 1.2rem;
+}
+
+
+
 
 #smiling-section{
     position: relative;
