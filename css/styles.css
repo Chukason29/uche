@@ -116,8 +116,27 @@ nav a:hover{
 }
 
 #module{
-    height: 80vh;
+    padding: 3rem;
     background-color: black;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    color: #ffffff;
+    text-align: center;
+}
+.module-list{
+    width: 20%;
+    position: relative;
+}
+.module-list img{
+    max-width: 100%;
+    filter: brightness(.7);
+    border-radius: 15px;
+}
+.module-writ{
+    position: absolute;
+    bottom: 10%;
+    width: 100%;
 }
 
 #smiling-section{
