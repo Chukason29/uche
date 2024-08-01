@@ -59,9 +59,12 @@ nav a:hover{
 #main-banner{
     position: relative;
     font-family: "DM Sans", sans-serif;
+    background-color: black;
+    padding: 2rem;
 }
 #main-banner img{
     max-width: 100%;
+    border-radius: 12px;
 }
 #main-banner-writ{
     position: absolute;
@@ -115,7 +118,8 @@ nav a:hover{
 
 
 #module{
-    height: 100vh;
+    height: 80vh;
+    background-color: black;
 }
 
 
